@@ -14,9 +14,10 @@ def calc_median(data):
             return sum(sorted(data)[n//2-1:n//2+1])/2.0
         
         
-def calc_mode(data)
+def calc_mode(data):
     def calc_mode (data):
-    return max(set(data), key=data.count)
+        return max(set(data), key=data.count)
+    
 
 
 def calc_var(data):
@@ -29,8 +30,7 @@ def calc_std (data):
     return (variance)**.5
 
 
-def calc_cov (data1,data2)
-    def calc_cov(data1,data2):
+def calc_cov(data1,data2):
     a_mean = calc_mean(data1)
     b_mean = calc_mean(data2)
 
